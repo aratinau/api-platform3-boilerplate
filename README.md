@@ -14,6 +14,18 @@ https://localhost/
 
 ## Mailer
 
+## Create databases
+
+`php bin/console doctrine:database:create`
+
+`php bin/console doctrine:database:create -e test`
+
+## Updates schema
+
+`php bin/console doctrine:shema:update --force`
+
+`php bin/console doctrine:shema:update --force -e test`
+
 ## Create fixtures
 
 `php bin/console make:factory`
