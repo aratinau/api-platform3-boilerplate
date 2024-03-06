@@ -21,3 +21,7 @@ https://localhost/
 ## Load fixtures
 
 `php bin/console doctrine:fixtures:load`
+
+## Run tests
+
+`php vendor/bin/codecept run api`
