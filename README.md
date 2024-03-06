@@ -7,3 +7,17 @@
 ## Start project
 
 `make up`
+
+## Go to project
+
+https://localhost/
+
+## Mailer
+
+## Create fixtures
+
+`php bin/console make:factory`
+
+## Load fixtures
+
+`php bin/console doctrine:fixtures:load`
