@@ -1,5 +1,13 @@
 # Api-platform 3 Boilerplate
 
+<table border="0">
+ <tr>
+    <td><img width="150px" src=".github/api-platform.png" /></td>
+    <td><img width="150px" src=".github/codeception.png" /></td>
+    <td><img width="150px" src=".github/symfony.png" /></td>
+ </tr>
+</table>
+
 ## Build project
 
 `make start`
