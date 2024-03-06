@@ -14,6 +14,8 @@ https://localhost/
 
 ## Mailer
 
+http://localhost:8025/
+
 ## Create databases
 
 `php bin/console doctrine:database:create`
