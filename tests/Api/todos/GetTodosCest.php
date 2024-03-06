@@ -1,13 +1,13 @@
 <?php
 
 
-namespace App\Tests\Api;
+namespace App\tests\Api\todos;
 
 use App\Factory\TodoFactory;
 use App\Tests\Support\ApiTester;
 use App\Tests\Support\Step\Api\Anonymous;
 
-class todosCest
+class getTodosCest
 {
     public function _before(ApiTester $I)
     {
