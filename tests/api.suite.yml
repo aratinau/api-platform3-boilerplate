@@ -1,0 +1,19 @@
+actor: ApiTester
+suite_namespace: App\Tests\Api
+modules:
+    # enable helpers as array
+    enabled:
+        - Symfony:
+              app_path: 'src'
+              environment: 'test'
+        - REST:
+              url: /api/
+              depends: Symfony
+        - Doctrine2:
+              depends: Symfony
+        - DataFactory:
+              depends: Doctrine2
+        - Asserts
+        - \App\Tests\Support\Helper\Api
+        #- \App\Tests\Helper\Factories
+        #- \App\Tests\Helper\User
